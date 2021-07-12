@@ -34,7 +34,7 @@ class MiddleWidget extends StatelessWidget {
             enlargeCenterPage: true,
             viewportFraction: isMobile(context) ? 0.75 : 0.4,
             autoPlay: true,
-            autoPlayInterval: 2.seconds,
+            autoPlayInterval: 3.seconds,
           )),
         ],
       ).p64().h(isMobile(context) ? 500 : 300),
