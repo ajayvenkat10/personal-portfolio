@@ -11,7 +11,7 @@ class IntroductionWidget extends StatelessWidget {
       [
         '- Introduction'.text.gray500.widest.sm.make(),
         20.heightBox,
-        'A software engineer with a love for problem solving and will to learn new tech to translate a solution on paper to a piece of software.\n\nSDE-1 Frontend @Nuclei.\n\nCompetitive Programmer, Flutter Dev, Android Dev.  :)'
+        'A software engineer with a love for problem solving and will to learn new tech to translate a solution on paper to a piece of software.\n\nSDE-1 Frontend @Nuclei.\n\nCompetitive Programmer, Flutter Dev, Android Dev.'
             .text
             .white
             .xl
