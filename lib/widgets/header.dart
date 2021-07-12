@@ -21,39 +21,37 @@ class HeaderWidget extends StatelessWidget {
             DisplayPictureWidget(),
             Row(
               children: [
-                // VStack([
-                //   isMobile(context) ? 40.heightBox : 10.heightBox,
-                //   CustomAppBar().shimmer(
-                //     primaryColor: PortfolioColors.accentColor,
-                //   ),
-                //   30.heightBox,
-                //   _getNameWidget(context),
-                //   20.heightBox,
-                //   VxBox()
-                //       .color(PortfolioColors.accentColor)
-                //       .size(60, 10)
-                //       .make()
-                //       .shimmer(
-                //         primaryColor: PortfolioColors.accentColor,
-                //       ),
-                //   30.heightBox,
-                //   SocialAccounts(),
-                // ]).pSymmetric(
-                //   h: context.percentWidth * 5,
-                //   v: 32,
-                // ),
-                Expanded(
-                  child: VxResponsive(
-                    fallback: const Offstage(),
-                    medium: IntroductionWidget().pOnly(left: 90).h(
-                      context.percentHeight * 60,
-                    ),
-                    large: IntroductionWidget().pOnly(left: 90).h(
-                      context.percentHeight * 60,
-                    ),
-                    xlarge: IntroductionWidget().pOnly(left: 90).h(
-                      context.percentHeight * 60,
-                    ),
+                VStack([
+                  isMobile(context) ? 40.heightBox : 10.heightBox,
+                  CustomAppBar().shimmer(
+                    primaryColor: PortfolioColors.accentColor,
+                  ),
+                  30.heightBox,
+                  _getNameWidget(context),
+                  20.heightBox,
+                  VxBox()
+                      .color(PortfolioColors.accentColor)
+                      .size(60, 10)
+                      .make()
+                      .shimmer(
+                        primaryColor: PortfolioColors.accentColor,
+                      ),
+                  30.heightBox,
+                  SocialAccounts(),
+                ]).pSymmetric(
+                  h: context.percentWidth * 5,
+                  v: 32,
+                ),
+                VxResponsive(
+                  fallback: const Offstage(),
+                  medium: IntroductionWidget().pOnly(left: 90).h(
+                    context.percentHeight * 60,
+                  ),
+                  large: IntroductionWidget().pOnly(left: 90).h(
+                    context.percentHeight * 60,
+                  ),
+                  xlarge: IntroductionWidget().pOnly(left: 90).h(
+                    context.percentHeight * 60,
                   ),
                 ).pOnly(left: context.percentWidth * 5),
               ],
