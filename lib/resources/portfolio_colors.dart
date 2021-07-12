@@ -10,4 +10,6 @@ mixin PortfolioColors{
   static const Color secondaryColor = Color(0xff333645);
 
   static Color accentColor = Vx.purple400;
+
+  static Color ? buttonColor = Color(0xFFC084FC);
 }
