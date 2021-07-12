@@ -47,7 +47,7 @@ class FooterWidget extends StatelessWidget {
   Widget _getMobileTabWidget(){
     return VStack(
       [
-        'Contact me at: '.text.center.white.xl2.make(),
+        'Contact me at : '.text.center.white.xl2.make(),
         10.heightBox,
         _getEmailWidget(),
       ],
@@ -58,7 +58,7 @@ class FooterWidget extends StatelessWidget {
   Widget _getDesktopWidget(BuildContext context){
     return HStack(
       [
-        'Contact me at: '.text.center.white.xl2.make(),
+        'Contact me at : '.text.center.white.xl2.make(),
         10.widthBox,
         _getEmailWidget()
       ],
